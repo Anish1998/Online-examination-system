@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="button.css">
+<script language="JavaScript" src="‪C:\Users\Nithin Kumar\Desktop\Project\register.js"></script>
+</head>
+<body>
+<br><br><center><b><font color="red" size="5">Create an Account</font></b></center>
+<form onsubmit="return validate()" align="center" name="f1" action="register.jsp" method="post" target="_blank">
+<fieldset>
+<table align="center">
+	<tr>
+	<td><label>Username:</label></td>
+	<td><input type="text" name="username"></td></tr>
+	<tr><td><label>Email:</label></td>
+	<td><input type="email" name="email" required></td></tr>
+	<tr><td><label>Password:</label></td>
+	<td><input type="password" name="password"></td></tr>
+	<tr><td><label>Confirm Password:</label></td>
+	<td><input type="password" name="cpassword"></td></tr>
+	<tr><td><label>Qualification:</label></td>
+	<td><select name="qualification">
+    <option value="B.Tech">B.Tech</option></select></td></tr>
+	<tr><td><label>Branch:</label></td>
+	<td><select name="branch">
+    <option value="CSE">CSE</option>
+	<option value="ECE">ECE</option>
+	<option value="EEE">EEE</option>
+	<option value="MECH">MECH</option>
+	<option value="CIVIL">CIVIL</option>
+	<option value="IT">IT</option></select></td></tr>
+	<tr><td><label>Course:</label></td>
+	<td><input type="radio" name="course" value="GATE">GATE
+	<input type="radio" name="course" value="Job">Job
+	<input type="radio" name="course" value="GRE">GRE
+	<input type="radio" name="course" value="CAT">CAT</td></tr>
+	<tr><td><label>Gender:</label></td>
+	<td><input type="radio" name="gender" value="Male">Male
+	<input type="radio" name="gender" value="Female">Female
+	<input type="radio" name="gender" value="Other">Other</td></tr>
+	<tr><td><label>Category:</label></td>
+	<td><input type="radio" name="category" value="OC">OC
+	<input type="radio" name="category" value="BC">BC
+	<input type="radio" name="category" value="SC">SC
+	<input type="radio" name="category" value="ST">ST</td></tr>
+	<tr><td><label>Physically Disabled:</label></td>
+	<td><input type="radio" name="pd" value="Yes">Yes
+	<input type="radio" name="pd" value="No">No</td></tr>
+	<tr><td colspan=2></td></tr><tr><td colspan=2></td></tr><tr><td colspan=2></td></tr><tr><td colspan=2></td></tr>
+	<tr><td colspan=2><button class="myButton" type="submit" value="submit" name="submit">Submit</button> &nbsp&nbsp&nbsp&nbsp&nbsp <button class="myButton" type="reset">Reset</button></td></tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
